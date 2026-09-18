@@ -3193,7 +3193,15 @@ body {
 
     position: relative;
 
-    margin-left: 52px;
+    margin-left: 15px;
+
+    height: 80px;
+
+    display: flex;
+
+    align-items: center;
+
+    float: left;
 
 }
 
