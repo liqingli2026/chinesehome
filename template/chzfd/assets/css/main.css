@@ -28632,13 +28632,23 @@ border-radius: 28px;
     /*width: calc(100% + 60px);*/
     width: calc(100% + 151px);
     /*width: calc(100% + 270px);*/
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
 
 }
 
+/* 厂房图相对左侧文字垂直居中：原浮动布局图片顶在区块顶端显得太靠上 */
+.he_k2p2n::after {
+    content: none;
+    display: none;
 
+}
 
 .he_k2p2nri {
-
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
     width: 775px;
 
 }
